@@ -2,17 +2,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.1024lab</groupId>
-    <artifactId>sa-parent</artifactId>
+    <groupId>cn.yuxi</groupId>
+    <artifactId>yx-parent</artifactId>
     <version>3.0.0</version>
     <packaging>pom</packaging>
 
-    <name>sa-parent</name>
-    <description>SmartAdmin project</description>
+    <name>yx-parent</name>
+    <description>YuXiAdmin project</description>
 
 	<modules>
-        <module>sa-base</module>
-		<module>sa-admin</module>
+        <module>yx-base</module>
+		<module>yx-admin</module>
     </modules>
 
     <properties>

@@ -22,7 +22,7 @@ public class TokenConfig {
     @Resource
     private Level3ProtectConfigService level3ProtectConfigService;
 
-    // 此配置会覆盖 sa-base.yaml 中的配置
+    // 此配置会覆盖 yx-base.yaml 中的配置
     @Resource
     public void configSaToken(SaTokenConfig config) {
 

@@ -2,24 +2,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>net.1024lab</groupId>
-        <artifactId>sa-parent</artifactId>
+        <groupId>cn.yuxi</groupId>
+        <artifactId>yx-parent</artifactId>
         <version>3.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
-    <artifactId>sa-admin</artifactId>
+    <artifactId>yx-admin</artifactId>
     <version>3.0.0</version>
     <packaging>jar</packaging>
 
-    <name>sa-admin</name>
-    <description>sa-admin project</description>
+    <name>yx-admin</name>
+    <description>yx-admin project</description>
 
     <dependencies>
 
         <dependency>
-            <groupId>net.1024lab</groupId>
-            <artifactId>sa-base</artifactId>
+            <groupId>cn.yuxi</groupId>
+            <artifactId>yx-base</artifactId>
             <version>3.0.0</version>
         </dependency>
 
@@ -31,7 +31,7 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
                 <configuration>
-                    <mainClass>net.lab1024.sa.admin.AdminApplication</mainClass>
+                    <mainClass>cn.yuxi.admin.AdminApplication</mainClass>
                 </configuration>
                 <executions>
                     <execution>
